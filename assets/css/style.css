@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=PT+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'DotGothic16', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* 
+Colorcitos 
+AzulNeon:
+#0cf2db
+AzulOscuro
+#1b1259
+RosaNeon
+#c007d9
+RosaOscuro
+#4e0fa6
+*/
+
+h3{
+  
+  font-family: 'Yesteryear', cursive;
+  text-align: center;
+  font-size: 64px;
+}
+h4{
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+p{
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  text-align: justify;
+}
+img{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.container{
+  padding-left: clamp(2%, 15%, 5px);
+  padding-right: clamp(2%, 15%, 5px);
+}
+.container-fluid {
+    padding: 60px 50px;
+    background-color: #0a0626;
+    color: rgb(181, 181, 181) !important;
+  }
+.bg-blue{
+    background-color: #1b1259;
+}
+.color-blue{
+  color: #0cf2db;
+}
+.bg-pink{
+    background-color: #4e0fa6;
+}
+.color-pink{
+  color: #c007d9;
+}
+.color-black{
+  color: #1b1259;
+}
+
+.header{
+  height: 450px;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #0a0626;
+    border: 0;
+    font-size: 12px !important;
+    z-index: 9999;
+     line-height: 1.42857143; 
+    letter-spacing: 4px; 
+    border-radius: 0;
+    /* font-family: Montserrat, sans-serif; */
+  }
+  .icon-bar{
+    background-color: #0cf2db !important;
+  }
+
+  .navbar li a, .navbar  {
+    color: #0cf2db !important ;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0a0626 !important; 
+    background-color: #0cf2db !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #ad2136 !important;
+  }
+  .navbar-brand{
+    color: #c007d9!important ;
+    font-family: 'Yesteryear', cursive;
+    font-size: 40px ;
+  }
+
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right{
+    color:#0cf2db !important;
+  }
+  .carousel-indicators li {
+    border-color: #c007d9;
+  }
+  .carousel-indicators li.active {
+    background-color: #c007d9;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 16px;
+    }
+    /* h3 {
+      font-size: 40px;
+    } */
+    h4 {
+      font-size: 20px;
+    }
+  }
