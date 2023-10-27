@@ -1,11 +1,13 @@
 
   @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=PT+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     /* font-family: 'DotGothic16', sans-serif; */
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 html{
@@ -23,7 +25,14 @@ RosaNeon
 RosaOscuro
 #4e0fa6
 */
-
+.bordecitos{
+  border:#0cf2db solid 3px;
+}
+span{
+  font-family: 'Yesteryear', cursive;
+  /* font-size: 24px; */
+  color: #c007d9;
+}
 h3{
   
   font-family: 'Yesteryear', cursive;
@@ -42,8 +51,8 @@ p{
   text-align: justify;
 }
 img{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .container{
   padding-left: clamp(2%, 15%, 5px);
@@ -74,7 +83,8 @@ img{
   height: 450px;
   background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 .navbar {
