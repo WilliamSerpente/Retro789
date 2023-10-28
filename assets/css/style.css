@@ -135,9 +135,12 @@ img{
     p {
       font-size: 16px;
     }
-    /* h3 {
-      font-size: 40px;
-    } */
+    img {
+      height: 200px ;
+    }
+    .item img{
+      height: 150px;
+    }
     h4 {
       font-size: 20px;
     }
